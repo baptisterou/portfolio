@@ -22,6 +22,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
@@ -35,6 +36,7 @@ header {
 .logo {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 36px;
+    font-weight: 400;
     color: #F3D68A;
 }
 
@@ -51,7 +53,7 @@ header {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     transition: color 0.3s ease;
 }
 
@@ -226,7 +228,7 @@ footer h2 {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 300px;
+    max-width: 250px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -261,7 +263,6 @@ footer h2 {
     margin-top: 50px;
     transition: background-color 0.3s ease;
     font-weight: bold;
-    margin-top: 10px;
 }
 
 .project-card a:hover {
